@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #1D212A;
+    color: #e9ecf4;
+}
+
+.main-container{
+    display: grid;
+    grid-template-areas:
+        "background-container";
+    height: 100vh; /* Viewport height */
+}
+
+.background-container{
+    position: relative;
+    grid-area: background-container;
+    overflow: hidden;
+}
